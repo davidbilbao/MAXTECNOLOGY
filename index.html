@@ -1,0 +1,73 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reparación de Celulares</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Encabezado -->
+    <header class="bg-green-600 py-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-white text-4xl font-bold">MAXTECNOLOGY <i class="fab fa-android"></i></h1>
+            <p class="text-green-200 mt-2">¡Somos tecnología a su alcance!</p>
+        </div>
+    </header>
+
+    <!-- Sección de Servicios -->
+    <section class="container mx-auto py-10">
+        <h2 class="text-3xl font-semibold text-center mb-6">Nuestros Servicios</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white shadow-lg rounded-lg p-5">
+                <h3 class="text-xl font-semibold">Servicio Técnico</h3>
+                <p class="mt-2">Reparación de celulares.</p>
+                <img src="serv.jpg" alt="Servicio Técnico">
+            </div>
+            <div class="bg-white shadow-lg rounded-lg p-5">
+                <h3 class="text-xl font-semibold">Ventas de Celulares</h3>
+                <p class="mt-2">Vendemos los mejores celulares con relación calidad-precio.</p>
+                <img src="venta.jpg" alt="Ventas de Celulares">
+            </div>
+            <div class="bg-white shadow-lg rounded-lg p-5">
+                <h3 class="text-xl font-semibold">Accesorios</h3>
+                <p class="mt-2">Vendemos los mejores accesorios al mejor precio.</p>
+                <img src="aceso.png" alt="Accesorios">
+            </div>
+            <div class="bg-white shadow-lg rounded-lg p-5">
+                <h3 class="text-xl font-semibold">Repuestos</h3>
+                <p class="mt-2">Repuestos para todo tipo de celulares modernos.</p>
+                <img src="respuestos.jpg" alt="Repuestos">
+            </div>
+        </div>
+    </section>
+
+    <!-- Redes Sociales -->
+    <section class="py-10">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-semibold mb-4">Síguenos en nuestras redes sociales</h2>
+            <div class="flex justify-center space-x-4">
+                <a href="https://api.whatsapp.com/send?phone=573234381627&text=¡Hola!, Tengo interés en un producto, me podrías brindar información?"
+                   class="text-green-500 hover:text-green-700" target="_blank" title="WhatsApp">
+                    <i class="fab fa-whatsapp fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com/maxtecnology1?igsh=MXc5dGlxY3M0ZjkyZg==" class="text-pink-500 hover:text-pink-700" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-green-600 py-4 text-center text-white">
+        <p><i class="fab fa-android"></i> Número de teléfono: 323 438 1627</p>
+        <p>Carrera 46 Calle 34 fedecafé-local 411A</p>
+        <p>&copy; <span id="year"></span> Reparación de Celulares. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Actualiza el año automáticamente
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
